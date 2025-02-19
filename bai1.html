@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Bài 1</title>
+</head>
+<style>
+    body {
+        font-family: Helvetica;
+        margin: 10px;
+        padding: 30px;
+        font-size: medium;
+    }
+    pre {
+        background-color: lightgray;
+        padding: 10px;
+        border-left: 3px solid lightgray;
+    }
+</style>
+<body>
+    <h1>HTML Basic Examples</h1>
+    <section>
+        <h2>1. HTML Basic</h2>
+        <p>
+            All HTML documents must start with a document type declaration: <code>!DOCTYPE html.</code><br/>
+            The HTML document itself begins with <code>html</code> and ends with <code>/html</code>.<br/>
+            The visible part of the HTML document is between html and /html.
+            <pre>
+            &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+            &lt;head&gt;
+                &lt;title&gt;Title&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                <b>My First Heading</b>
+                My First Paragraph
+            &lt;/body&gt;
+            &lt;/html&gt;
+            </pre>
+        </p>
+        <h2>2. HTML Elements</h2>
+        <p>
+            The HTML element is everything from the start tag to the end tag:<br/>
+            <pre>
+                <code>&lt;tagname&gt;content&lt;/tagname&gt;</code><br/>
+                <code>&lt;p&gt;This is a paragraph&lt;/p&gt;</code>
+            </pre>
+        </p>
+        <h2>3. HTML Attributes</h2>
+        <p>
+            HTML elements can have attributes.<br/>
+            Attributes provide additional information about elements.<br/>
+            Attributes are always specified in the start tag.<br/>
+            Attributes usually come in name/value pairs like: <code>name="value"</code>.<br/>
+            <pre>
+                <code>&lt;tagname attribute="value"&gt;content&lt;/tagname&gt;</code><br/>
+                <code>&lt;a href="https://www.w3schools.com"&gt;This is a link&lt;/a&gt;</code>
+            </pre>
+        </p>
+        <h2>4. HTML Headings</h2>
+        <p>
+            HTML headings are defined with the <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> tags.<br/>
+            <pre>
+                <code>&lt;h1&gt;This is heading 1&lt;/h1&gt;</code><br/>
+                <code>&lt;h2&gt;This is heading 2&lt;/h2&gt;</code><br/>
+                <code>&lt;h3&gt;This is heading 3&lt;/h3&gt;</code><br/>
+                <code>&lt;h4&gt;This is heading 4&lt;/h4&gt;</code><br/>
+                <code>&lt;h5&gt;This is heading 5&lt;/h5&gt;</code><br/>
+                <code>&lt;h6&gt;This is heading 6&lt;/h6&gt;</code>
+            </pre>
+        </p>
+        <h2>5. HTML Paragraphs</h2>
+        <p>
+            HTML paragraphs are defined with the <code>&lt;p&gt;</code> tag.<br/>
+            <pre>
+                <code>&lt;p&gt;This is a paragraph&lt;/p&gt;</code>
+            </pre>
+        </p>
+        <h2>6. HTML Styles</h2>
+        <p>
+            You can add styles to HTML elements.<br/>
+            The most common way to add styles is to use an HTML <code>style</code> attribute.<br/>
+            The <code>style</code> attribute can contain any CSS property.<br/>
+            <pre>
+                <code>&lt;tagname style="property:value;"&gt;content&lt;/tagname&gt;</code><br/>
+                <code>&lt;h1 style="color:blue;"&gt;This is a blue heading&lt;/h1&gt;</code>
+            </pre>
+        </p>
+        <h2>7. HTML Formatting</h2>
+        <p>
+            HTML also defines special elements for defining text with a special meaning.<br/>
+            <pre>
+                <code>&lt;b&gt;This text is bold&lt;/b&gt;</code><br/>
+                <code>&lt;strong&gt;This text is strong&lt;/strong&gt;</code><br/>
+                <code>&lt;i&gt;This text is italic&lt;/i&gt;</code><br/>
+                <code>&lt;em&gt;This text is emphasized&lt;/em&gt;</code><br/>
+                <code>&lt;mark&gt;This text is marked&lt;/mark&gt;</code><br/>
+                <code>&lt;small&gt;This text is small&lt;/small&gt;</code><br/>
+                <code>&lt;del&gt;This text is deleted&lt;/del&gt;</code><br/>
+                <code>&lt;ins&gt;This text is inserted&lt;/ins&gt;</code><br/>
+                <code>&lt;sub&gt;This text is subscripted&lt;/sub&gt;</code><br/>
+                <code>&lt;sup&gt;This text is superscripted&lt;/sup&gt;</code>
+            </pre>
+        </p>
+        <h2>8. HTML Quotations</h2>
+        <p>
+            HTML blockquotes are defined with the <code>&lt;blockquote&gt;</code> tag.<br/>
+            <pre>
+                <code>&lt;blockquote&gt;This is a blockquote&lt;/blockquote&gt;</code>
+            </pre>
+        </p>
+        <h2>9. HTML Comments</h2>
+        <p>
+            HTML comments are not displayed in the browser, but they can help document your HTML source code.<br/>
+            <pre>
+                <code>&lt;!-- This is a comment --&gt;</code>
+            </pre>
+        </p>
+        <h2>10. HTML Colors</h2>
+        <p>
+            HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.<br/>
+            <pre>
+                <code>&lt;h1 style="color:blue;"&gt;This is a blue heading&lt;/h1&gt;</code><br/>
+                <code>&lt;p style="color:red;"&gt;This is a red paragraph&lt;/p&gt;</code>
+            </pre>
+        </p>
+        <h2>11. HTML CSS</h2>
+        <p>
+            CSS stands for Cascading Style Sheets.<br/>
+            CSS describes how HTML elements are to be displayed on screen, paper, or in other media.<br/>
+            CSS saves a lot of work. It can control the layout of multiple web pages all at once.<br/>
+            External stylesheets are stored in CSS files.<br/>
+            <pre>
+                <code>&lt;link rel="stylesheet" type="text/css" href="styles.css"&gt;</code>
+            </pre>
+    </section>
+</body>
+</html>
